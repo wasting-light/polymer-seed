@@ -1,15 +1,5 @@
 # polymer-seed
-A polymer app seed
-
-### Features
-- Gulp tasks.
-- Livereload support.
-- CSS with Stylus, Jeet, Rupture and Kouto-swiss.
-- Material Design color variables.
-- Styles scaffolding.
-- Jshint support.
-- Vulcanize support.
-- Script to boilerplate new elements (bash-users only).
+A polymer app boilerplate with Stylus, Gulp and Livereload support.
 
 ### Usage
 
