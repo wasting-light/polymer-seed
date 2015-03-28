@@ -1,6 +1,43 @@
 # polymer-seed
 A polymer app seed
 
+### Features
+- Gulp tasks.
+- Livereload support.
+- CSS with Stylus, Jeet, Rupture and Kouto-swiss.
+- Material Design color variables.
+- Styles scaffolding.
+- Jshint support.
+- Vulcanize support.
+- Script to boilerplate new elements (bash-users only).
+
+### Usage
+
+#### Install
+1. Install the npm dependencies:
+`npm install`
+
+2. Install the bower dependencies:
+`bower install`
+
+#### Creating a new element (bash-users only)
+To create a new element you can run the new.sh shell script as shown below:
+`./new.sh element-name`
+
+This will create the files below and add some boilerplate to your custom element.
+- `app/elements/element-name/element-name.html`
+- `app/elements/element-name/element-name.js`
+- `app/elements/element-name/element-name.styl`
+
+### Folder and File Description
+
+#### Folder Structure
+- `app/` - The folder that contains the app.
+- `app/components/` - The folder that contain all the dependency components (installed via bower). This folder is by default git ignored.
+- `app/elements/` - The folder that contains all your custom elements.
+- `app/elements/hello-world/` - A custom element example.
+- `app/styles/` - The folder that contains all the general and base styles.
+
 ### Styles and Theming
 
 #### Folder Structure
@@ -53,6 +90,11 @@ It uses [jshint-stylish](https://github.com/sindresorhus/jshint-stylish) as the 
 Compiles the Stylus code into CSS. 
 
 It supports [Jeet](https://github.com/mojotech/jeet), a Stylus-based grid system helper;  [Rupture](https://github.com/jenius/rupture) a Sstylus-based media-queries helper and [Kouto Swiss](https://github.com/krkn/kouto-swiss), a complete CSS framework for Stylus
+
+#### gulp vulcanize
+Vulcanize the custom elements and concats them into one file, for performance issues.
+
+By default, the vulcanized file is called `index.vulcanized.html`.
 
 #### gulp watch
 Watches files for changes and runs the server and the stylus gulp task.
