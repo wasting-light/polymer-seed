@@ -11,9 +11,11 @@ var stylish    = require('jshint-stylish');
 var kouto      = require('kouto-swiss');
 var plumber    = require('gulp-plumber');
 var reload     = require('browser-sync').reload;
+var rename     = require('gulp-rename');
 var rupture    = require('rupture');
 var sourcemaps = require('gulp-sourcemaps');
 var stylus     = require('gulp-stylus');
+var vulcanize  = require('gulp-vulcanize');
 
 /**
  * Server task
@@ -89,6 +91,23 @@ gulp.task('jshint', function() {
 
 gulp.task('jshint-watch', function() {
   gulp.watch('app/**/*.js', ['jshint']);
+});
+
+/**
+ * Vulcanize task
+ *
+ * Concatenates a set of webcomponents into one file
+ */
+
+gulp.task('vulcanize', function() {
+  return gulp
+    .src('app/index.html')
+    .pipe(vulcanize({
+      dest: 'dist',
+      strip: true
+    }))
+    .pipe(rename('index.vulcanized.html'))
+    .pipe(gulp.dest('dist'));
 });
 
 /**
