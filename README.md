@@ -1,7 +1,7 @@
 # polymer-seed
 A polymer app boilerplate with Stylus, Gulp and Livereload support.
 
-### Usage
+## Usage
 
 #### Install
 1. Install the npm dependencies:
@@ -19,7 +19,7 @@ This will create the files below and add some boilerplate to your custom element
 - `app/elements/element-name/element-name.js`
 - `app/elements/element-name/element-name.styl`
 
-### Folder and File Description
+## Folder and File Description
 
 #### Folder Structure
 - `app/` - The folder that contains the app.
@@ -28,7 +28,7 @@ This will create the files below and add some boilerplate to your custom element
 - `app/elements/hello-world/` - A custom element example.
 - `app/styles/` - The folder that contains all the general and base styles.
 
-### Styles and Theming
+## Styles and Theming
 
 #### Folder Structure
 
@@ -60,7 +60,7 @@ You may optionally hard-code the color variables. Example:
 		color: pink-a200
 ```
 
-### Gulp tasks
+## Gulp tasks
 Polymer seed includes a set of gulp tasks to improve productivity and performance on production.
 
 #### gulp server
@@ -94,3 +94,8 @@ Runs the jshint gulp task and watches files for changes.
 
 #### gulp default
 Runs the watch gulp task.
+
+## License and Copyright
+This code is released under [MIT LICENSE](https://github.com/grvcoelho/polymer-seed/edit/master/LICENSE).
+
+2015 (c) Guilherme Rv Coelho \<guilherme@cenoura.co\>
