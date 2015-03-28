@@ -1,9 +1,15 @@
 #!/bin/bash 
 
-echo "What's the name of the element?"
-read name
-
 default_folder=app/elements
+
+if [ $# -eq 1 ]
+  then
+    name=$1
+  else
+    echo -n "Type the name of the element: "
+    read name
+fi
+
 
 mkdir -p $default_folder/$name
 touch $default_folder/$name/$name.html
