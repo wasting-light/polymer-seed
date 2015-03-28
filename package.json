@@ -1,0 +1,36 @@
+{
+  "name": "polymer-seed",
+  "version": "1.0.0",
+  "description": "A polymer app seed",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grvcoelho/polymer-seed.git"
+  },
+  "keywords": [
+    "polymer",
+    "webcomponents",
+    "polymer-seed"
+  ],
+  "author": "Guilherme Rv Coelho <guilherme@cenoura.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grvcoelho/polymer-seed/issues"
+  },
+  "homepage": "https://github.com/grvcoelho/polymer-seed",
+  "devDependencies": {
+    "browser-sync": "^2.4.0",
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.4",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-stylus": "^2.0.1",
+    "jeet": "^6.1.2",
+    "jshint-stylish": "^1.0.1",
+    "kouto-swiss": "^0.11.10",
+    "rupture": "^0.6.1"
+  }
+}

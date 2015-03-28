@@ -1,0 +1,23 @@
+{
+  "name": "polymer-seed",
+  "version": "1.0.0",
+  "homepage": "https://github.com/grvcoelho/polymer-seed",
+  "authors": [
+    "Guilherme Rv Coelho <guilherme@cenoura.co>"
+  ],
+  "description": "A polymer app seed",
+  "main": "app/index.html",
+  "keywords": [
+    "polymer",
+    "webcomponents",
+    "polymer-seed"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
