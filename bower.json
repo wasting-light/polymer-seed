@@ -9,7 +9,7 @@
   "main": "app/index.html",
   "keywords": [
     "polymer",
-    "webcomponents",
+    "web-components",
     "polymer-seed"
   ],
   "license": "MIT",
