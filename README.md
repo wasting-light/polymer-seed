@@ -98,4 +98,4 @@ Runs the watch gulp task.
 ## License and Copyright
 This code is released under [MIT LICENSE](https://github.com/grvcoelho/polymer-seed/edit/master/LICENSE).
 
-2015 (c) Guilherme Rv Coelho \<guilherme@cenoura.co\>
+2015 (c) Guilherme Rv Coelho \<@grvcoelho\>
